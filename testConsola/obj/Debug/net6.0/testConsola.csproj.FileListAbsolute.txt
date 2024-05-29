@@ -16,4 +16,7 @@ C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testConsola\obj\Debug\net6.0\
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testConsola\obj\Debug\net6.0\testConsola.pdb
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testConsola\obj\Debug\net6.0\testConsola.genruntimeconfig.cache
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testConsola\obj\Debug\net6.0\ref\testConsola.dll
+<<<<<<< HEAD
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testConsola\obj\Debug\net6.0\testConsola.sourcelink.json
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970

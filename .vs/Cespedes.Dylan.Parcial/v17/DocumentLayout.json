@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +16,64 @@
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
       "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\agregarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\agregarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\agregarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\agregarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\enumerados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\enumerados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\discoduro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\discoduro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     },
     {
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\almacendecomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\memoriaram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\memoriaram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\componente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testformparcial\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     },
     {
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\jsoncomponentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,6 +84,7 @@
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\tarjetagrafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\entidades\\discoduro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5322447D-148F-4A04-A935-F48E70EB2074}|Entidades\\Entidades.csproj|solutionrelative:entidades\\discoduro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,6 +99,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\editarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\editarcomponente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testformparcial\\menuinicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174430A8-9387-43B0-86C3-154E944AD9B3}|testFormParcial\\testFormParcial.csproj|solutionrelative:testformparcial\\menuinicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534DC556-E9B6-4E6D-B4EF-8E35EE9610EA}|testConsola\\testConsola.csproj|c:\\users\\nicoc\\source\\repos\\cespedes.dylan.parcial\\testconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534DC556-E9B6-4E6D-B4EF-8E35EE9610EA}|testConsola\\testConsola.csproj|solutionrelative:testconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +116,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 6,
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,6 +136,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "AgregarComponente.cs",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AgregarComponente.cs",
@@ -200,18 +255,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 5,
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
               "Title": "DiscoDuro.cs",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\DiscoDuro.cs",
               "RelativeDocumentMoniker": "Entidades\\DiscoDuro.cs",
               "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\DiscoDuro.cs",
               "RelativeToolTip": "Entidades\\DiscoDuro.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAACcAAAAAAAAAAAAwwC8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T01:39:35.665Z",
+=======
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:31:53.926Z",
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "TarjetaGrafica.cs",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\TarjetaGrafica.cs",
@@ -226,6 +291,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 2,
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
               "Title": "AgregarComponente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AgregarComponente.cs",
               "RelativeDocumentMoniker": "testFormParcial\\AgregarComponente.cs",
@@ -237,6 +305,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 11,
               "Title": "EditarComponente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\EditarComponente.cs",
@@ -245,10 +314,21 @@
               "RelativeToolTip": "testFormParcial\\EditarComponente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T19:37:59.968Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "AlmacenDeComponentes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AlmacenDeComponentes.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\AlmacenDeComponentes.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AlmacenDeComponentes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "testFormParcial\\AlmacenDeComponentes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T19:49:15.131Z",
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
               "Title": "EditarComponente.cs",
               "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\EditarComponente.cs",
@@ -259,6 +339,156 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T17:05:54.219Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 0,
+              "Title": "AgregarComponente.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AgregarComponente.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\AgregarComponente.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AgregarComponente.cs",
+              "RelativeToolTip": "testFormParcial\\AgregarComponente.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADgvw4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:28:25.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlmacenDeComponentes.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AlmacenDeComponentes.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\AlmacenDeComponentes.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\AlmacenDeComponentes.cs",
+              "RelativeToolTip": "testFormParcial\\AlmacenDeComponentes.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAnwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:56:33.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enumerados.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Enumerados.cs",
+              "RelativeDocumentMoniker": "Entidades\\Enumerados.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Enumerados.cs",
+              "RelativeToolTip": "Entidades\\Enumerados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:35:59.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlmacenDeComponentes.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\AlmacenDeComponentes.cs",
+              "RelativeDocumentMoniker": "Entidades\\AlmacenDeComponentes.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\AlmacenDeComponentes.cs",
+              "RelativeToolTip": "Entidades\\AlmacenDeComponentes.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:10:12.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Componente.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Componente.cs",
+              "RelativeDocumentMoniker": "Entidades\\Componente.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Componente.cs",
+              "RelativeToolTip": "Entidades\\Componente.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:08:24.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuInicio.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\MenuInicio.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.cs",
+              "RelativeToolTip": "testFormParcial\\MenuInicio.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:54:32.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\MenuInicio.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "testFormParcial\\MenuInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:37:51.784Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JsonComponentes.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\JsonComponentes.cs",
+              "RelativeDocumentMoniker": "Entidades\\JsonComponentes.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\JsonComponentes.cs",
+              "RelativeToolTip": "Entidades\\JsonComponentes.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:34:56.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TarjetaGrafica.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\TarjetaGrafica.cs",
+              "RelativeDocumentMoniker": "Entidades\\TarjetaGrafica.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\TarjetaGrafica.cs",
+              "RelativeToolTip": "Entidades\\TarjetaGrafica.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:33:06.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Entidades\\Usuario.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:36:09.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuInicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.Designer.cs",
+              "RelativeDocumentMoniker": "testFormParcial\\MenuInicio.Designer.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\MenuInicio.Designer.cs",
+              "RelativeToolTip": "testFormParcial\\MenuInicio.Designer.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAYwHIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:56:43.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\Program.cs",
+              "RelativeDocumentMoniker": "testConsola\\Program.cs",
+              "ToolTip": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\Program.cs",
+              "RelativeToolTip": "testConsola\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:38:25.979Z"
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             }
           ]
         }

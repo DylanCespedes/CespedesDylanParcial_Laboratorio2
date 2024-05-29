@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+<<<<<<< HEAD
     public class Registro
     {
         //Manejar los componentes
@@ -96,6 +97,12 @@ namespace Entidades
 
 
 
+=======
+    internal class Registro
+    {
+        //Manejar los componentes
+
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 
     }
 }

@@ -64,6 +64,7 @@ public enum EmarcaMemoria
     Gskill,
     Kingston
 }
+<<<<<<< HEAD
 
 //Windows form
 public enum Ecomponentes
@@ -72,3 +73,5 @@ public enum Ecomponentes
     MemoriaRAM,
     TarjetaGrafica
 }
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970

@@ -33,6 +33,7 @@
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
+<<<<<<< HEAD
             txtNombre = new TextBox();
             label3 = new Label();
             comboBox2 = new ComboBox();
@@ -77,22 +78,40 @@
             txtNumeroTransferencia = new TextBox();
             label23 = new Label();
             label24 = new Label();
+=======
+            textBox1 = new TextBox();
+            label3 = new Label();
+            comboBox2 = new ComboBox();
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             SuspendLayout();
             // 
             // label2
             // 
             label2.AutoSize = true;
+<<<<<<< HEAD
             label2.Location = new Point(79, 6);
             label2.Name = "label2";
             label2.Size = new Size(54, 15);
             label2.TabIndex = 2;
             label2.Text = "Nombre:";
+=======
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(51, 15);
+            label2.TabIndex = 2;
+            label2.Text = "Nombre";
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             label2.Click += label2_Click;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
+<<<<<<< HEAD
             comboBox1.Location = new Point(12, 124);
+=======
+            comboBox1.Items.AddRange(new object[] { "Memoria RAM", "Tarjeta Grafica", "DiscoDuro" });
+            comboBox1.Location = new Point(12, 83);
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 3;
@@ -100,7 +119,11 @@
             // 
             // button1
             // 
+<<<<<<< HEAD
             button1.Location = new Point(867, 297);
+=======
+            button1.Location = new Point(386, 281);
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             button1.Name = "button1";
             button1.Size = new Size(85, 36);
             button1.TabIndex = 4;
@@ -110,7 +133,11 @@
             // 
             // button2
             // 
+<<<<<<< HEAD
             button2.Location = new Point(867, 339);
+=======
+            button2.Location = new Point(477, 281);
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             button2.Name = "button2";
             button2.Size = new Size(85, 36);
             button2.TabIndex = 5;
@@ -121,6 +148,7 @@
             // label1
             // 
             label1.AutoSize = true;
+<<<<<<< HEAD
             label1.Location = new Point(12, 106);
             label1.Name = "label1";
             label1.Size = new Size(80, 15);
@@ -133,25 +161,52 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(121, 23);
             txtNombre.TabIndex = 7;
+=======
+            label1.Location = new Point(12, 65);
+            label1.Name = "label1";
+            label1.Size = new Size(77, 15);
+            label1.TabIndex = 6;
+            label1.Text = "Componente";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 27);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(121, 23);
+            textBox1.TabIndex = 7;
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             // 
             // label3
             // 
             label3.AutoSize = true;
+<<<<<<< HEAD
             label3.Location = new Point(12, 151);
             label3.Name = "label3";
             label3.Size = new Size(121, 15);
             label3.TabIndex = 8;
             label3.Text = "Marca del disco duro:";
+=======
+            label3.Location = new Point(12, 119);
+            label3.Name = "label3";
+            label3.Size = new Size(40, 15);
+            label3.TabIndex = 8;
+            label3.Text = "Marca";
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             // 
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
+<<<<<<< HEAD
             comboBox2.Location = new Point(12, 169);
+=======
+            comboBox2.Location = new Point(12, 137);
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
             comboBox2.TabIndex = 9;
             comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
+<<<<<<< HEAD
             // label4
             // 
             label4.AutoSize = true;
@@ -489,10 +544,13 @@
             label24.TabIndex = 50;
             label24.Text = "Ingresa el tipo de componente que quieras agregar al pedido:";
             // 
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             // AgregarComponente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             ClientSize = new Size(964, 386);
             Controls.Add(label24);
             Controls.Add(label23);
@@ -538,14 +596,24 @@
             Controls.Add(comboBox2);
             Controls.Add(label3);
             Controls.Add(txtNombre);
+=======
+            ClientSize = new Size(569, 329);
+            Controls.Add(comboBox2);
+            Controls.Add(label3);
+            Controls.Add(textBox1);
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(label2);
             Name = "AgregarComponente";
+<<<<<<< HEAD
             Text = "AgregarComponente";
             Load += AgregarComponente_Load_1;
+=======
+            Text = "ElegirComponente";
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             ResumeLayout(false);
             PerformLayout();
         }
@@ -556,6 +624,7 @@
         private Button button1;
         private Button button2;
         private Label label1;
+<<<<<<< HEAD
         private TextBox txtNombre;
         private Label label3;
         private ComboBox comboBox2;
@@ -600,5 +669,10 @@
         private TextBox txtNumeroTransferencia;
         private Label label23;
         private Label label24;
+=======
+        private TextBox textBox1;
+        private Label label3;
+        private ComboBox comboBox2;
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
 }

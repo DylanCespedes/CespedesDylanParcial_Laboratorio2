@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using System.Text.Json.Serialization;
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 using System.Threading.Tasks;
 
 namespace Entidades
@@ -19,7 +22,10 @@ namespace Entidades
 
         public int capacidad;
 
+<<<<<<< HEAD
         [JsonConstructor]
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         public MemoriaRAM(int velocidad, EcolorMemoria colorMemoria, EmarcaMemoria marcaMemoria, DateTime fechaCreacionMemoria, int capacidad, int id, string nombre, DateTime fechaEntrega, EtipoEntrega tipoEntrega, Epago metodoPago, double precio, int numeroDeTransferencia) : base(id, nombre, fechaEntrega, tipoEntrega, metodoPago, precio, numeroDeTransferencia)
         {
             this.velocidad = velocidad;
@@ -38,12 +44,20 @@ namespace Entidades
         {
 
         }
+<<<<<<< HEAD
         /*
+=======
+
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         public override void PromocionDescuento()
         {
 
         }
+<<<<<<< HEAD
         */
+=======
+
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 
         protected override string Mostrar()
         {

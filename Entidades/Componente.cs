@@ -2,14 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using System.Text.Json.Serialization;
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 using System.Threading.Tasks;
 
 namespace Entidades
 {
+<<<<<<< HEAD
 
     //El desealizador no podia leer estos datos de la clase padre ya que como es abstracto impedia leer lo que lleva adentro
     public class Componente
+=======
+    public abstract class Componente
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     {
         public int id { get; set; }
 
@@ -25,12 +32,17 @@ namespace Entidades
 
         public int numeroDeTransferencia { get; set; }
 
+<<<<<<< HEAD
         [JsonConstructor]
         public Componente(int id, string nombre, DateTime fechaEntrega, EtipoEntrega tipoEntrega, Epago metodoPago, double precio, int numeroDeTransferencia) : this(id, nombre, precio)
         {
             this.id = id;
             this.nombre = nombre;
             this.precio = precio;
+=======
+        public Componente(int id, string nombre, DateTime fechaEntrega, EtipoEntrega tipoEntrega, Epago metodoPago, double precio, int numeroDeTransferencia) : this(id, nombre, precio)
+        {
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             this.fechaEntrega = fechaEntrega;
             this.tipoEntrega = tipoEntrega;
             this.metodoPago = metodoPago;
@@ -51,6 +63,7 @@ namespace Entidades
 
         public Componente()
         {
+<<<<<<< HEAD
             
         }
 
@@ -59,6 +72,14 @@ namespace Entidades
 
         //Este nombre lo tengo que cambiar con algo que yo necesite
         //public abstract void PromocionDescuento();
+=======
+            nombre = "";
+        }
+
+
+        //Este nombre lo tengo que cambiar con algo que yo necesite
+        public abstract void PromocionDescuento();
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 
         public override string ToString()
         {

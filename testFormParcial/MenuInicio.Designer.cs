@@ -101,7 +101,10 @@
             Controls.Add(label1);
             Name = "MenuInicio";
             Text = "MenuInicioSesion";
+<<<<<<< HEAD
             Load += MenuInicio_Load;
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             ResumeLayout(false);
             PerformLayout();
         }

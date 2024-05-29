@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using Entidades;
 using System;
+=======
+﻿using System;
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +17,7 @@ namespace testFormParcial
 {
     public partial class AgregarComponente : Form
     {
+<<<<<<< HEAD
         private List<Componente> componentes;
 
         public AgregarComponente()
@@ -23,11 +28,17 @@ namespace testFormParcial
 
             //Cargar de enumerados componentes a elegir
             CargarComponentes();
+=======
+        public AgregarComponente()
+        {
+            InitializeComponent();
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+<<<<<<< HEAD
             DiscoDuro discoDuro;
             MemoriaRAM memoriaRAM;
             TarjetaGrafica tarjeta;
@@ -89,6 +100,8 @@ namespace testFormParcial
 
 
             this.Close();
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -108,6 +121,7 @@ namespace testFormParcial
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
             if (comboBox1.SelectedIndex == 0)
             {
@@ -370,5 +384,9 @@ namespace testFormParcial
             CargarMetodoPago();
             
         }
+=======
+            comboBox2.DataSource = Enum.GetValues(typeof(EmarcaDisco));
+        }
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
 }

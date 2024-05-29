@@ -21,4 +21,7 @@ C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.AgregarComponente.resources
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.AlmacenDeComponentes.resources
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.sourcelink.json
+<<<<<<< HEAD
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.EditarComponente.resources
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970

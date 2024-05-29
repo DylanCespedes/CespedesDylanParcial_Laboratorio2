@@ -9,7 +9,10 @@ namespace Entidades
     public class AlmacenDeComponentes
     {
         //Copiar todo lo que tengo y crear un metodo para serealizar componentes
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         private List<Componente> componentes;
 
         public AlmacenDeComponentes(List<Componente> componentes)
@@ -93,7 +96,10 @@ namespace Entidades
 
             return stringBuilder.ToString();
         }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
 }

@@ -12,10 +12,16 @@ namespace Entidades
 
         private string urlFullPath;
 
+<<<<<<< HEAD
         public JsonComponentes(string path)
         {
             this.urlFullPath = "../../../../Componentes.json";
             //this.urlFullPath += "Documentos";
+=======
+        public JsonComponentes(string urlFullPath)
+        {
+            this.urlFullPath = urlFullPath;
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
         }
 
         public void GuardarComponentesJson(List<Componente> listaComponentes)
@@ -32,6 +38,7 @@ namespace Entidades
 
         public List<Componente> LeerComponentesJson()
         {
+<<<<<<< HEAD
             List<Componente> listaComp = new List<Componente>();
             using (var reader = new StreamReader(this.urlFullPath))
             {
@@ -50,6 +57,16 @@ namespace Entidades
             return listaComp;
         }
 
+=======
+            using (var reader = new StreamReader(this.urlFullPath))
+            {
+                string listaSerializada = reader.ReadToEnd();
+                List<Componente> listaComponentes = JsonSerializer.Deserialize<List<Componente>>(listaSerializada);
+
+                return listaComponentes;
+            }
+        }
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
 }
 

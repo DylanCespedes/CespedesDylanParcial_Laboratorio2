@@ -36,8 +36,11 @@
             btnCerrarSesion = new Button();
             label2 = new Label();
             label3 = new Label();
+<<<<<<< HEAD
             label4 = new Label();
             label5 = new Label();
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -113,6 +116,7 @@
             // label3
             // 
             label3.AutoSize = true;
+<<<<<<< HEAD
             label3.Location = new Point(59, 9);
             label3.Name = "label3";
             label3.Size = new Size(48, 15);
@@ -136,14 +140,24 @@
             label5.Size = new Size(49, 15);
             label5.TabIndex = 9;
             label5.Text = "nombre";
+=======
+            label3.Location = new Point(12, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(41, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Fecha:";
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             // 
             // AlmacenDeComponentes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(664, 406);
+<<<<<<< HEAD
             Controls.Add(label5);
             Controls.Add(label4);
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(btnCerrarSesion);
@@ -154,7 +168,10 @@
             Controls.Add(dataGridView1);
             Name = "AlmacenDeComponentes";
             Text = "Almacen";
+<<<<<<< HEAD
             Load += AlmacenDeComponentes_Load;
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -170,7 +187,10 @@
         private Button btnCerrarSesion;
         private Label label2;
         private Label label3;
+<<<<<<< HEAD
         private Label label4;
         private Label label5;
+=======
+>>>>>>> 7333da0049bfc9e43ffd321b2e3b5e71319bf970
     }
 }
