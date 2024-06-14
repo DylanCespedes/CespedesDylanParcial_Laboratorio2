@@ -1,0 +1,29 @@
+[
+  {
+    "id": 4,
+    "nombre": "Mariano",
+    "fechaEntrega": "2024-06-15T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 12567.34,
+    "numeroDeTransferencia": 78026510
+  },
+  {
+    "id": 1,
+    "nombre": "Jose",
+    "fechaEntrega": "2024-03-05T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 2757658,
+    "numeroDeTransferencia": 12345678
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "fechaEntrega": "2024-02-04T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 3475623,
+    "numeroDeTransferencia": 47595739
+  }
+]
