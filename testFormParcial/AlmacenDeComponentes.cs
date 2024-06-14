@@ -37,26 +37,26 @@ namespace testFormParcial
             DialogResult dialogResult = btnAgregar.ShowDialog();
 
 
-            if (dialogResult == DialogResult.OK) 
+            if (dialogResult == DialogResult.OK)
             {
 
                 Componente componente = btnAgregar.Componente;
 
 
                 //Hacer lo mismo con tarjeta grafica y con memoriaRAM
-                if(componente is DiscoDuro)
+                if (componente is DiscoDuro)
                 {
                     DiscoDuro discoDuro = (DiscoDuro)componente;
                     Administracion.componentes.Add(discoDuro);
                 }
 
-                if(componente is MemoriaRAM)
+                if (componente is MemoriaRAM)
                 {
                     MemoriaRAM memoriaRAM = (MemoriaRAM)componente;
                     Administracion.componentes.Add(memoriaRAM);
                 }
 
-                if(componente is TarjetaGrafica)
+                if (componente is TarjetaGrafica)
                 {
                     TarjetaGrafica tarjetaGrafica = (TarjetaGrafica)componente;
                     Administracion.componentes.Add(tarjetaGrafica);
@@ -75,18 +75,18 @@ namespace testFormParcial
             Componente componenteModificar;
             Componente componenteEncontrado;
 
-            if (this.dataGridView1.SelectedRows.Count > 0) 
+            if (this.dataGridView1.SelectedRows.Count > 0)
             {
                 Epago metodoPago;
                 EtipoEntrega tipoEntrega;
-                
+
                 int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
 
 
                 string nombre = dataGridView1.SelectedRows[0].Cells["nombre"].Value.ToString();
                 DateTime fechaEntrega = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["fechaEntrega"].Value);
                 int precio = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["precio"].Value);
-                
+
                 int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                 var columnaMetodoPago = dataGridView1.SelectedRows[0].Cells["metodoPago"].Value;
@@ -127,14 +127,14 @@ namespace testFormParcial
             }
 
         }
-        
+
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (this.dataGridView1.SelectedRows.Count > 0)
             {
                 Epago metodoPago;
                 EtipoEntrega tipoEntrega;
-                
+
                 int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
 
                 string nombre = dataGridView1.SelectedRows[0].Cells["nombre"].Value.ToString();
@@ -143,7 +143,7 @@ namespace testFormParcial
                 int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                 var columnaMetodoPago = dataGridView1.SelectedRows[0].Cells["metodoPago"].Value;
-                if(columnaMetodoPago != null)
+                if (columnaMetodoPago != null)
                 {
                     int intValue;
                     if (int.TryParse(columnaMetodoPago.ToString(), out intValue))
@@ -183,7 +183,7 @@ namespace testFormParcial
                 {
                     MessageBox.Show("Eliminacion cancelada", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                
+
             }
 
         }
@@ -200,7 +200,7 @@ namespace testFormParcial
             usuario = Usuario.DesealizarUsuariosJson();
 
             label5.Text = usuario[0].nombre;
-            
+
         }
     }
 }

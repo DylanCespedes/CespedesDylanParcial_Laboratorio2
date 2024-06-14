@@ -33,7 +33,7 @@ namespace Entidades
                     write.WriteLine(json);
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw new ArchivoSinUbicacionExcepcion();
             }
@@ -46,14 +46,14 @@ namespace Entidades
             {
                 string listaSerializada = reader.ReadToEnd();
                 //List<Componente> listaComponentes = JsonSerializer.Deserialize<List<Componente>>(listaSerializada);
-                
-                if(listaSerializada != null)
+
+                if (listaSerializada != null)
                 {
                     listaComp = JsonSerializer.Deserialize<List<Componente>>(listaSerializada);
-                    
+
                 }
 
-                
+
             }
 
             return listaComp;

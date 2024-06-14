@@ -38,6 +38,7 @@ namespace Entidades
             }
 
 
+
             try
             {
                 JsonComponentes serialize = new JsonComponentes("../../../../Componentes.json");
@@ -55,13 +56,14 @@ namespace Entidades
             //Hacer esto mismo en las otros serialize de guardar componente json
         }
 
+
         public static string EliminarComponente(int componenteEliminar)
         {
             string retorno = "";
 
             foreach (var componente in Administracion.componentes)
             {
-                if (componenteEliminar == componente.id) 
+                if (componenteEliminar == componente.id)
                 {
                     Administracion.componentes.Remove(componente);
                     retorno = "Se elimino el componente " + componente.nombre + "/n";
@@ -82,6 +84,7 @@ namespace Entidades
             }
 
             return retorno;
+
         }
 
         public static Componente BuscarComponente(int id)
