@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "nombre": "Federico",
+    "fechaEntrega": "2024-01-10T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 2,
+    "precio": 900.23,
+    "numeroDeTransferencia": 12345678
+  }
+]
