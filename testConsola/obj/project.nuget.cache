@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w9hyNMOd+cU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicoC\\Desktop\\Cespedes.Dylan.Parcial\\testConsola\\testConsola.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicoC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
