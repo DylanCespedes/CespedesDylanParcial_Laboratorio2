@@ -203,13 +203,13 @@ namespace testFormParcial
         {
             var resultado = MessageBox.Show("¿Estas seguro que quieres cerrar sesion y cerrar esta aplicacion?", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (resultado == DialogResult.No) 
+            if (resultado == DialogResult.No)
             {
                 e.Cancel = true;
             }
             else
             {
-                
+
                 Application.Exit();
             }
         }

@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": 1,
     "nombre": "Federico",
     "fechaEntrega": "2024-01-10T00:00:00",
@@ -7,5 +8,60 @@
     "metodoPago": 2,
     "precio": 900.23,
     "numeroDeTransferencia": 12345678
+=======
+<<<<<<< HEAD
+    "id": 4,
+    "nombre": "Mariano",
+    "fechaEntrega": "2024-06-15T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 12567.34,
+    "numeroDeTransferencia": 78026510
+  },
+  {
+    "id": 1,
+    "nombre": "Jose",
+    "fechaEntrega": "2024-03-05T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 2757658,
+    "numeroDeTransferencia": 12345678
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "fechaEntrega": "2024-02-04T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 3475623,
+    "numeroDeTransferencia": 47595739
+=======
+    "id": 1,
+    "nombre": "Rodrigo",
+    "fechaEntrega": "2024-12-30T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 1,
+    "precio": 12475.58,
+    "numeroDeTransferencia": 23456789
+  },
+  {
+    "id": 2,
+    "nombre": "Luis",
+    "fechaEntrega": "2023-03-05T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 346234,
+    "numeroDeTransferencia": 3857348
+  },
+  {
+    "id": 3,
+    "nombre": "Pantera",
+    "fechaEntrega": "2023-03-04T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 2,
+    "precio": 93474342,
+    "numeroDeTransferencia": 38443784
+>>>>>>> 152679f0ef7f81aa618bc8a743c265f6d2a2f611
+>>>>>>> 28c92d169dd80d988f0a45b0e914eecf8140fc38
   }
 ]
