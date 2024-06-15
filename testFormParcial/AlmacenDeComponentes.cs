@@ -247,8 +247,8 @@ namespace testFormParcial
 
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = Administracion.componentes;
-                    
-            
+
+
         }
     }
 }

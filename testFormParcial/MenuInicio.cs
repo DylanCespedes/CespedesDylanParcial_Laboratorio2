@@ -66,7 +66,7 @@ namespace testFormParcial
             {
                 if (!File.Exists(archivoRegistro))
                 {
-                    using(StreamWriter sw = File.CreateText(archivoRegistro))
+                    using (StreamWriter sw = File.CreateText(archivoRegistro))
                     {
                         sw.WriteLine(registro);
                     }
@@ -82,7 +82,7 @@ namespace testFormParcial
 
                 return true;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show($"Error al iniciar sesion: {ex.Message}", "Error!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
