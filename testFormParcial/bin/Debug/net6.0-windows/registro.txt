@@ -1,5 +1,6 @@
 15/6/2024 17:27:46: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 15/6/2024 17:38:13: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+<<<<<<< HEAD
 16/6/2024 17:29:22: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:39:29: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:42:39: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
@@ -7,3 +8,5 @@
 17/6/2024 14:52:08: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:57:22: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:58:01: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+=======
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801

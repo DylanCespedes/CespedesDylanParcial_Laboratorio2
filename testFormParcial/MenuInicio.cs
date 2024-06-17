@@ -90,9 +90,11 @@ namespace testFormParcial
             }
         }
 
+
         private void MenuInicio_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
+
     }
 }

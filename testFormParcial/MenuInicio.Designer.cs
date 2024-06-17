@@ -101,7 +101,9 @@
             Controls.Add(label1);
             Name = "MenuInicio";
             Text = "MenuInicioSesion";
+
             FormClosing += MenuInicio_FormClosing;
+
             Load += MenuInicio_Load;
             ResumeLayout(false);
             PerformLayout();
