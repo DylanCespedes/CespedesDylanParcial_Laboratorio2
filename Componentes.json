@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Federico",
+    "fechaEntrega": "2024-01-10T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 2,
+    "precio": 900.23,
+    "numeroDeTransferencia": 12345678
+  },
+  {
+    "id": 2,
+    "nombre": "Rodrigo",
+    "fechaEntrega": "2023-02-05T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 100.85,
+    "numeroDeTransferencia": 87654321
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "fechaEntrega": "2024-04-30T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 300.43,
+    "numeroDeTransferencia": 73486682
+  },
+  {
+    "id": 4,
+    "nombre": "Shawn",
+    "fechaEntrega": "2024-12-06T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 3,
+    "precio": 495.21,
+    "numeroDeTransferencia": 35927560
+  }
+]
