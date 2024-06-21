@@ -8,11 +8,11 @@ namespace Entidades
 {
     public class Administracion
     {
-        public static List<Componente> componentes {  get; set; }
+        public static List<Componente> componentes { get; set; }
 
         public static void InicializarSistema()
         {
-            
+
             JsonComponentes serializer = new JsonComponentes("../../../../Componentes.json");
             Administracion.componentes = Registro.LeerArchivoComponente();
             Administracion.componentes = serializer.LeerComponentesJson();
@@ -25,7 +25,7 @@ namespace Entidades
 
             foreach (var componente in Administracion.componentes)
             {
-                if(id == componente.id)
+                if (id == componente.id)
                 {
                     componente.nombre = componenteEditar.nombre;
                     componente.fechaEntrega = componenteEditar.fechaEntrega;
@@ -45,7 +45,7 @@ namespace Entidades
 
                 mensaje = "Se serializo correctamente";
             }
-            catch (ArchivoSinUbicacionExcepcion e) 
+            catch (ArchivoSinUbicacionExcepcion e)
             {
                 mensaje = e.Message;
             }
@@ -61,7 +61,7 @@ namespace Entidades
 
             foreach (var componente in Administracion.componentes)
             {
-                if (componenteEliminar == componente.id) 
+                if (componenteEliminar == componente.id)
                 {
                     Administracion.componentes.Remove(componente);
                     retorno = "Se elimino el componente " + componente.nombre + "\n";
@@ -86,9 +86,9 @@ namespace Entidades
 
         public static Componente BuscarComponente(int id)
         {
-            foreach(var componente in Administracion.componentes)
+            foreach (var componente in Administracion.componentes)
             {
-                if(componente.id == id)
+                if (componente.id == id)
                 {
                     return componente;
                 }

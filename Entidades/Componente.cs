@@ -68,7 +68,7 @@ namespace Entidades
 
         public Componente()
         {
-            
+
         }
 
         //Este nombre lo tengo que cambiar con algo que yo necesite
