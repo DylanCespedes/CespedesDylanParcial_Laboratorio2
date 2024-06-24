@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "al1YAcqw9wM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicoC\\.nuget\\packages\\aspose.diagram\\24.6.0\\aspose.diagram.24.6.0.nupkg.sha512",
+    "C:\\Users\\nicoC\\.nuget\\packages\\aspose.drawing.common\\23.7.0\\aspose.drawing.common.23.7.0.nupkg.sha512",
+    "C:\\Users\\nicoC\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\nicoC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\nicoC\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "nombre": "Ejemplo de entrega",
+  "fechaEntrega": "2024-05-28 12:00:00",
+  "tipoEntrega": "Envio",
+  "metodoPago": "Aplicacion",
+  "precio": null,
+  "numeroDeTransferencia": null
+}
