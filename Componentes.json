@@ -1,5 +1,21 @@
 [
   {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c52efcccab7a4e1120c3fb1d03a62031e6acc15e
+>>>>>>> 2b11fcc4d08eb6a8c2a9b4357c5f71ec62a14d9c
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
     "id": 1,
     "nombre": "Federico",
     "fechaEntrega": "2024-01-10T00:00:00",
@@ -7,6 +23,19 @@
     "metodoPago": 2,
     "precio": 900.23,
     "numeroDeTransferencia": 12345678
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2b11fcc4d08eb6a8c2a9b4357c5f71ec62a14d9c
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
   },
   {
     "id": 2,
@@ -16,10 +45,55 @@
     "metodoPago": 1,
     "precio": 100.85,
     "numeroDeTransferencia": 87654321
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+    "id": 4,
+    "nombre": "Mariano",
+    "fechaEntrega": "2024-06-15T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 12567.34,
+    "numeroDeTransferencia": 78026510
+  },
+  {
+    "id": 1,
+    "nombre": "Jose",
+    "fechaEntrega": "2024-03-05T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 2757658,
+    "numeroDeTransferencia": 12345678
+>>>>>>> c52efcccab7a4e1120c3fb1d03a62031e6acc15e
+>>>>>>> 2b11fcc4d08eb6a8c2a9b4357c5f71ec62a14d9c
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
   },
   {
     "id": 3,
     "nombre": "Carlos",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2b11fcc4d08eb6a8c2a9b4357c5f71ec62a14d9c
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
     "fechaEntrega": "2024-04-30T00:00:00",
     "tipoEntrega": 0,
     "metodoPago": 0,
@@ -34,5 +108,52 @@
     "metodoPago": 3,
     "precio": 495.21,
     "numeroDeTransferencia": 35927560
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "fechaEntrega": "2024-02-04T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 3475623,
+    "numeroDeTransferencia": 47595739
+=======
+    "id": 1,
+    "nombre": "Rodrigo",
+    "fechaEntrega": "2024-12-30T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 1,
+    "precio": 12475.58,
+    "numeroDeTransferencia": 23456789
+  },
+  {
+    "id": 2,
+    "nombre": "Luis",
+    "fechaEntrega": "2023-03-05T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 346234,
+    "numeroDeTransferencia": 3857348
+  },
+  {
+    "id": 3,
+    "nombre": "Pantera",
+    "fechaEntrega": "2023-03-04T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 2,
+    "precio": 93474342,
+    "numeroDeTransferencia": 38443784
+>>>>>>> 152679f0ef7f81aa618bc8a743c265f6d2a2f611
+>>>>>>> 28c92d169dd80d988f0a45b0e914eecf8140fc38
+>>>>>>> c52efcccab7a4e1120c3fb1d03a62031e6acc15e
+>>>>>>> 2b11fcc4d08eb6a8c2a9b4357c5f71ec62a14d9c
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
   }
 ]

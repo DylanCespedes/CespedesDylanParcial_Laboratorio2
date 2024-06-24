@@ -1,5 +1,12 @@
 15/6/2024 17:27:46: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 15/6/2024 17:38:13: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
 16/6/2024 17:29:22: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:39:29: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:42:39: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
@@ -7,6 +14,10 @@
 17/6/2024 14:52:08: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:57:22: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 14:58:01: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa
 17/6/2024 15:24:50: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 15:25:22: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 15:25:47: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
@@ -14,8 +25,15 @@
 17/6/2024 15:26:28: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 15:26:50: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 17/6/2024 15:27:15: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+<<<<<<< HEAD
 23/6/2024 16:43:49: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 24/6/2024 15:36:34: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 24/6/2024 15:43:10: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 24/6/2024 17:40:00: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
 24/6/2024 18:13:25: Se inicio con exito para Corey Gorgen (cgorgen@vendedor.com)
+=======
+=======
+=======
+>>>>>>> 3cd325c851164293cf48c15ccb809bd7214fe801
+>>>>>>> f860d797b9b455ac0667f7359c453100ccfc106a
+>>>>>>> c907caf672f34f36ab33c2473ff713f7dafb31fa

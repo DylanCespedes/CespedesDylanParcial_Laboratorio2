@@ -49,7 +49,7 @@ namespace testFormParcial
 
         protected virtual void button1_Click(object sender, EventArgs e)
         {
-            
+
 
             //Pedido de la persona(Componente)
             int id = Convert.ToInt32(txtId.Text);
@@ -73,7 +73,7 @@ namespace testFormParcial
 
             }
 
-            if (comboBox1.SelectedIndex == 1) 
+            if (comboBox1.SelectedIndex == 1)
             {
                 //Memoria RAM
                 int velocidad = Convert.ToInt32(txtVelocidad.Text);
@@ -86,7 +86,7 @@ namespace testFormParcial
 
             }
 
-            if (comboBox1.SelectedIndex == 2) 
+            if (comboBox1.SelectedIndex == 2)
             {
                 //Tarjeta Grafica
                 EmarcaTarjeta marcaTarjeta = (EmarcaTarjeta)comboBox6.SelectedIndex;
@@ -209,7 +209,7 @@ namespace testFormParcial
 
                 txtFechaCreacionTarjeta.Enabled = false;
             }
-            else if (comboBox1.SelectedIndex == 2) 
+            else if (comboBox1.SelectedIndex == 2)
             {
 
                 comboBox2.Enabled = false;
@@ -324,7 +324,7 @@ namespace testFormParcial
 
         private void AgregarComponente_Load_1(object sender, EventArgs e)
         {
-            
+
             //Carga de enumerados Disco Duro
             CargarModelosDiscoDuro();
             CargarColorDiscoDuro();
@@ -343,7 +343,7 @@ namespace testFormParcial
 
             CargarTipoEntrega();
             CargarMetodoPago();
-            
+
         }
     }
 }
