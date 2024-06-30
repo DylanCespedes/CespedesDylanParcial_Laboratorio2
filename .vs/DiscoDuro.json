@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tipoMarca": 0,
+    "tamanio": "2,0",
+    "capacidad": "40GB",
+    "color": 0,
+    "fechaCreacion": "2016-02-10T00:00:00",
+    "valor": 0,
+    "nombre": "Julien",
+    "fechaEntrega": "2024-06-20T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 10857.34,
+    "numeroDeTransferencia": 12345678
+  },
+  {
+    "id": 2,
+    "tipoMarca": 2,
+    "tamanio": "2,4",
+    "capacidad": "40GB",
+    "color": 1,
+    "fechaCreacion": "2023-05-25T00:00:00",
+    "valor": 0,
+    "nombre": "Carlos",
+    "fechaEntrega": "2025-05-08T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 2,
+    "precio": 85763.46,
+    "numeroDeTransferencia": 87654321
+  }
+]
