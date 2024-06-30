@@ -21,15 +21,15 @@ namespace Entidades
 
         public EmarcaDisco tipoMarca { get; set; }
 
-        public string tamanio {  get; set; }
+        public string tamanio { get; set; }
 
-        public string capacidad {  get; set; }
+        public string capacidad { get; set; }
 
-        public Ecolor color {  get; set; }
+        public Ecolor color { get; set; }
 
-        public DateTime fechaCreacion {  get; set; }
+        public DateTime fechaCreacion { get; set; }
 
-        public Ecomponentes valor {  get; set; }
+        public Ecomponentes valor { get; set; }
 
         [JsonConstructor]
         public DiscoDuro(int id, EmarcaDisco tipoMarca, string tamanio, string capacidad, Ecolor color, DateTime fechaCreacion, string nombre, DateTime fechaEntrega, EtipoEntrega tipoEntrega, Epago metodoPago, double precio, int numeroDeTransferencia) : base(nombre, fechaEntrega, tipoEntrega, metodoPago, precio, numeroDeTransferencia)

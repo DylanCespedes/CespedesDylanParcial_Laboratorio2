@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AgregarComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AlmacenDeComponentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Update="EditarComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ElegirComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="modificarComponentes.cs">
+=======
+    <Compile Update="MenuInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="modificarComponente.cs">
+>>>>>>> 12257f65397ede4ce7d56856c078c6382502c14c
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="AlmacenDeComponentes.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Update="MenuInicio.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+>>>>>>> 12257f65397ede4ce7d56856c078c6382502c14c
+  </ItemGroup>
+</Project>

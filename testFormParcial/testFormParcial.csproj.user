@@ -25,7 +25,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="AgregarComponente.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Update="AlmacenDeComponentes.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MenuInicio.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

@@ -9,14 +9,14 @@ namespace Entidades
 {
     public class Administracion
     {
-        public static List<Componente> listaCombinada {  get; set; }
+        public static List<Componente> listaCombinada { get; set; }
 
-        
+
         public static List<DiscoDuro> discoDuros { get; set; }
 
-        public static List<MemoriaRAM> memoriaRAM {  get; set; }
+        public static List<MemoriaRAM> memoriaRAM { get; set; }
 
-        public static List<TarjetaGrafica> tarjetaGrafica {  get; set; }
+        public static List<TarjetaGrafica> tarjetaGrafica { get; set; }
 
         public static void InicializarSistema()
         {
@@ -79,7 +79,7 @@ namespace Entidades
 
             return mensaje;
 
-            
+
         }
 
         public static string ModificarMemoriaRAM(MemoriaRAM memoriaRamEditar, int id)
@@ -90,7 +90,7 @@ namespace Entidades
             {
                 if (id == memoriaram.id)
                 {
-                    
+
                     memoriaram.marcaMemoria = memoriaRamEditar.marcaMemoria;
                     memoriaram.velocidad = memoriaRamEditar.velocidad;
                     memoriaram.colorMemoria = memoriaRamEditar.colorMemoria;

@@ -201,7 +201,7 @@ namespace testFormParcial
                             }
 
                             memoriaRamEncontrada = Administracion.BuscarMemoriaRAM(id);
-                            
+
                             modificarComponentes modificarComponente = new modificarComponentes(memoriaRamEncontrada);
                             modificarComponente.ShowDialog();
 
@@ -325,20 +325,20 @@ namespace testFormParcial
                                 int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                                 var columnaMarcaDisco = dataGridView1.SelectedRows[0].Cells["tipoMarca"].Value;
-                                if(columnaMarcaDisco != null)
+                                if (columnaMarcaDisco != null)
                                 {
                                     int intValue;
-                                    if(int.TryParse(columnaMarcaDisco.ToString(), out intValue)) 
+                                    if (int.TryParse(columnaMarcaDisco.ToString(), out intValue))
                                     {
                                         tipoMarca = (EmarcaDisco)intValue;
                                     }
                                 }
 
                                 var columnaColor = dataGridView1.SelectedRows[0].Cells["color"].Value;
-                                if(columnaColor != null ) 
+                                if (columnaColor != null)
                                 {
                                     int intValue;
-                                    if(int.TryParse(columnaColor.ToString(), out intValue))
+                                    if (int.TryParse(columnaColor.ToString(), out intValue))
                                     {
                                         color = (Ecolor)intValue;
                                     }
@@ -378,7 +378,7 @@ namespace testFormParcial
 
                                 DialogResult result = MessageBox.Show($"Estas seguro que quieres eliminar este pedido para {nombre} de la lista?", "Aviso!!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                                if (result == DialogResult.Yes) 
+                                if (result == DialogResult.Yes)
                                 {
                                     string mensaje = Administracion.EliminarDiscoDuro(id);
 
@@ -414,7 +414,7 @@ namespace testFormParcial
                             int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                             var columnaColorMemoria = dataGridView1.SelectedRows[0].Cells["colorMemoria"].Value;
-                            if(columnaColorMemoria != null)
+                            if (columnaColorMemoria != null)
                             {
                                 int intValue;
                                 if (int.TryParse(columnaColorMemoria.ToString(), out intValue))
@@ -424,10 +424,10 @@ namespace testFormParcial
                             }
 
                             var columnaMarcaMemoria = dataGridView1.SelectedRows[0].Cells["marcaMemoria"].Value;
-                            if (columnaMarcaMemoria != null) 
+                            if (columnaMarcaMemoria != null)
                             {
                                 int intValue;
-                                if(int.TryParse(columnaMarcaMemoria.ToString(), out intValue))
+                                if (int.TryParse(columnaMarcaMemoria.ToString(), out intValue))
                                 {
                                     marcaMemoria = (EmarcaMemoria)intValue;
                                 }
@@ -512,10 +512,10 @@ namespace testFormParcial
                             }
 
                             var columnaSerieNvidia = dataGridView1.SelectedRows[0].Cells["serieNvidia"].Value;
-                            if (columnaSerieNvidia != null) 
+                            if (columnaSerieNvidia != null)
                             {
                                 int intValue;
-                                if(int.TryParse(columnaSerieNvidia.ToString(), out intValue))
+                                if (int.TryParse(columnaSerieNvidia.ToString(), out intValue))
                                 {
                                     serieNvidia = (EserieNvidia)intValue;
                                 }
@@ -639,13 +639,13 @@ namespace testFormParcial
             }
 
             listaActual++;
-            if (listaActual > 3) 
+            if (listaActual > 3)
             {
                 listaActual = 1;
             }
 
         }
-        
+
         private void MostrarListaDiscoDuro(List<DiscoDuro> lista)
         {
             dataGridView1.DataSource = null;
@@ -661,7 +661,7 @@ namespace testFormParcial
         private void MostrarListaTarjeta(List<TarjetaGrafica> lista)
         {
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource= Administracion.tarjetaGrafica;
+            dataGridView1.DataSource = Administracion.tarjetaGrafica;
         }
     }
 }
