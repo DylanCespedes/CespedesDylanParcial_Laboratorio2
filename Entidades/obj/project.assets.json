@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\nicoC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

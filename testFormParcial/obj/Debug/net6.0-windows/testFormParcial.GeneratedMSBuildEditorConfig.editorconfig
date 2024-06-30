@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testFormParcial
-build_property.ProjectDir = C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\
+build_property.ProjectDir = C:\Users\nicoC\Desktop\CespedesDylanParcial_Laboratorio2\testFormParcial\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

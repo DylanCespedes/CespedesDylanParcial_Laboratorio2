@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\testFormParcial.csproj": {}
+    "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\testFormParcial\\testFormParcial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\nicoC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\testFormParcial.csproj": {
+    "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\testFormParcial\\testFormParcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\testFormParcial.csproj",
+        "projectUniqueName": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\testFormParcial\\testFormParcial.csproj",
         "projectName": "testFormParcial",
-        "projectPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\testFormParcial.csproj",
+        "projectPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\testFormParcial\\testFormParcial.csproj",
         "packagesPath": "C:\\Users\\nicoC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\testFormParcial\\obj\\",
+        "outputPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\testFormParcial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\nicoC\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj"
+              "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\nicoC\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj"
               }
             }
           }
