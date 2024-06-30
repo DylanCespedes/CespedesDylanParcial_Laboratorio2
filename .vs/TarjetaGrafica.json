@@ -1,16 +1,17 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "marcaTarjeta": 2,
-    "serieNvidia": 0,
-    "modelo": 4030,
-    "tamanioMemoria": 1,
-    "fechaCreacionTarjeta": "2022-04-08T00:00:00",
-    "nombre": "Luis",
-    "fechaEntrega": "2024-02-09T00:00:00",
+    "serieNvidia": 1,
+    "modelo": 1080,
+    "tamanioMemoria": 46,
+    "fechaCreacionTarjeta": "2022-03-04T00:00:00",
+    "valor": 2,
+    "nombre": "Quico",
+    "fechaEntrega": "2024-03-06T00:00:00",
     "tipoEntrega": 1,
-    "metodoPago": 1,
-    "precio": 35845,
-    "numeroDeTransferencia": 2947486
+    "metodoPago": 2,
+    "precio": 6384.35,
+    "numeroDeTransferencia": 3498568
   }
 ]

@@ -134,7 +134,7 @@ namespace testFormParcial
                             discoDuroEncontrado = Administracion.BuscarDiscoDuro(id);
 
                             modificarComponentes modificarComponente = new modificarComponentes(discoDuroEncontrado);
-                            modificarComponente.ShowDialog();
+                            modificarComponente.Show();
 
                             dataGridView1.DataSource = null;
                             dataGridView1.DataSource = Administracion.discoDuros;
@@ -203,7 +203,7 @@ namespace testFormParcial
                             memoriaRamEncontrada = Administracion.BuscarMemoriaRAM(id);
                             
                             modificarComponentes modificarComponente = new modificarComponentes(memoriaRamEncontrada);
-                            modificarComponente.ShowDialog();
+                            modificarComponente.Show();
 
                             dataGridView1.DataSource = null;
                             dataGridView1.DataSource = Administracion.memoriaRAM;
@@ -272,7 +272,7 @@ namespace testFormParcial
                             tarjetaGraficaEncontrada = Administracion.BuscarTarjetaGrafica(id);
 
                             modificarComponentes modificarComponente = new modificarComponentes(tarjetaGraficaEncontrada);
-                            modificarComponente.ShowDialog();
+                            modificarComponente.Show();
 
                             dataGridView1.DataSource = null;
                             dataGridView1.DataSource = Administracion.tarjetaGrafica;

@@ -13,11 +13,11 @@ namespace testFormParcial
 {
     public partial class modificarComponentes : Form
     {
-        private DiscoDuro discoduro = new DiscoDuro();
+        private DiscoDuro discoduro;
 
-        private MemoriaRAM memoriaram = new MemoriaRAM();
+        private MemoriaRAM memoriaram;
 
-        private TarjetaGrafica tarjetagrafica = new TarjetaGrafica();
+        private TarjetaGrafica tarjetagrafica;
 
 
         private DiscoDuro discoDuroModificar;
@@ -169,7 +169,7 @@ namespace testFormParcial
 
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (memoriaram is null)
+            else if (memoriaram is not null)
             {
                 int velocidad = Convert.ToInt32(txtVelocidad.Text);
                 EcolorMemoria colorMemoria = (EcolorMemoria)comboBox5.SelectedIndex;
@@ -189,7 +189,7 @@ namespace testFormParcial
                 EserieNvidia serieNvidia = (EserieNvidia)comboBox7.SelectedIndex;
                 int modelo = Convert.ToInt32(txtModelo.Text);
                 int tamanioMemoria = Convert.ToInt32(txtTamanioTarjeta.Text);
-                DateTime fechaCreacionTarjeta = Convert.ToDateTime(txtFechaCreacionTarjeta);
+                DateTime fechaCreacionTarjeta = Convert.ToDateTime(txtFechaCreacionTarjeta.Text);
 
                 TarjetaGrafica componenteTarjetaGrafica = new TarjetaGrafica(id, marcaTarjeta, serieNvidia, modelo, tamanioMemoria, fechaCreacionTarjeta, nombre, fechaCreacionTarjeta, tipoEntrega, metodoPago, precio, numeroTransferencia);
 

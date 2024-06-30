@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": 1,
+    "velocidad": 20,
+    "colorMemoria": 1,
+    "marcaMemoria": 0,
+    "fechaCreacionMemoria": "2017-04-06T00:00:00",
+    "capacidad": 48,
+    "valor": 1,
+    "nombre": "Nicolas",
+    "fechaEntrega": "2024-05-28T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 1,
+    "precio": 4387.45,
+    "numeroDeTransferencia": 8357866
+  }
+]
