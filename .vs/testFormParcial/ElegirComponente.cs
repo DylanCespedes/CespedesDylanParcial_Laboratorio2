@@ -1,4 +1,5 @@
 ﻿using Entidades;
+using Entidades.BaseSQL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,8 @@ namespace testFormParcial
         public DiscoDuro componenteDiscoDuro;
         public MemoriaRAM componenteMemoriaRAM;
         public TarjetaGrafica componenteTarjetaGrafica;
+
+        GestorDeDatos entidades = new GestorDeDatos();
 
         public ElegirComponente()
         {
@@ -37,6 +40,8 @@ namespace testFormParcial
 
                 JsonComponentes serializerDiscoDuro = new JsonComponentes("../../../../DiscoDuro.json");
                 serializerDiscoDuro.GuardarDiscoDuroJson(Administracion.discoDuros);
+
+                entidades.AgregarDiscoDuro(componenteDiscoDuro);
 
                 this.DialogResult = DialogResult.OK;
             }

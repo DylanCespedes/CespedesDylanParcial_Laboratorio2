@@ -28,5 +28,20 @@
     "metodoPago": 0,
     "precio": 10847.46,
     "numeroDeTransferencia": 87654321
+  },
+  {
+    "id": 3,
+    "tipoMarca": 0,
+    "tamanio": "1,5",
+    "capacidad": "15GB",
+    "color": 0,
+    "fechaCreacion": "2017-02-18T00:00:00",
+    "valor": 0,
+    "nombre": "Tito",
+    "fechaEntrega": "2024-08-06T00:00:00",
+    "tipoEntrega": 0,
+    "metodoPago": 0,
+    "precio": 27474.23,
+    "numeroDeTransferencia": 7535758
   }
 ]

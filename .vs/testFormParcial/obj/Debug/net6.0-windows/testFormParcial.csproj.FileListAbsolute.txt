@@ -49,3 +49,9 @@ C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\ref\testFormParcial.dll
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.ElegirComponente.resources
 C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\obj\Debug\net6.0-windows\testFormParcial.modificarComponentes.resources
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nicoC\source\repos\Cespedes.Dylan.Parcial\testFormParcial\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

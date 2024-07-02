@@ -1,4 +1,5 @@
 ﻿using Entidades;
+using Entidades.BaseSQL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,8 @@ namespace testFormParcial
         private MemoriaRAM memoriaRamModificar;
 
         private TarjetaGrafica TarjetaGraficaModificar;
+
+        GestorDeDatos entidades = new GestorDeDatos();
 
         public DiscoDuro Discoduro
         {
@@ -167,7 +170,11 @@ namespace testFormParcial
 
                 string mensaje = Administracion.ModificarDiscoDuro(componenteDiscoDuro, id);
 
+                entidades.ModificarDiscoDuro(componenteDiscoDuro);
+
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.DialogResult = DialogResult.OK;
             }
             else if (memoriaram is not null)
             {
@@ -182,6 +189,8 @@ namespace testFormParcial
                 string mensaje = Administracion.ModificarMemoriaRAM(componenteMemoriaRAM, id);
 
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.DialogResult = DialogResult.OK;
             }
             else if(tarjetagrafica is not null)
             {
@@ -196,10 +205,9 @@ namespace testFormParcial
                 string mensaje = Administracion.ModificarTarjetaGrafica(componenteTarjetaGrafica, id);
 
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            
 
-            this.Close();
+                this.DialogResult = DialogResult.OK;
+            }
 
         }
 

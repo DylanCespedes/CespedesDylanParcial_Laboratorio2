@@ -8,6 +8,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades.BaseSQL;
 using System.Windows.Forms;
 
 namespace testFormParcial
@@ -22,6 +23,8 @@ namespace testFormParcial
         private List<TarjetaGrafica> lista3;
 
         private int listaActual = 1;
+
+        GestorDeDatos entidades = new GestorDeDatos();
 
         public AlmacenDeComponentes()
         {
@@ -47,6 +50,8 @@ namespace testFormParcial
             {
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = Administracion.discoDuros;
+
+
 
                 MessageBox.Show("El componente se ha agregado correctamente!!!", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -82,7 +87,6 @@ namespace testFormParcial
                             string tamanio = dataGridView1.SelectedRows[0].Cells["tamanio"].Value.ToString();
                             string capacidad = dataGridView1.SelectedRows[0].Cells["capacidad"].Value.ToString();
                             DateTime fechaCreacion = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["fechaCreacion"].Value);
-
 
                             string nombre = dataGridView1.SelectedRows[0].Cells["nombre"].Value.ToString();
                             DateTime fechaEntrega = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["fechaEntrega"].Value);
@@ -134,10 +138,17 @@ namespace testFormParcial
                             discoDuroEncontrado = Administracion.BuscarDiscoDuro(id);
 
                             modificarComponentes modificarComponente = new modificarComponentes(discoDuroEncontrado);
-                            modificarComponente.Show();
+                            DialogResult dialogResult = modificarComponente.ShowDialog();
 
-                            dataGridView1.DataSource = null;
-                            dataGridView1.DataSource = Administracion.discoDuros;
+                            if(dialogResult == DialogResult.OK)
+                            {
+                                MessageBox.Show("El componente fue modificado con exito!!!", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                dataGridView1.DataSource = null;
+                                dataGridView1.DataSource = Administracion.discoDuros;
+
+                                this.DialogResult = DialogResult.OK;
+                            }
                         }
 
                         if (valor == Ecomponentes.MemoriaRAM)
@@ -382,6 +393,10 @@ namespace testFormParcial
                                 {
                                     string mensaje = Administracion.EliminarDiscoDuro(id);
 
+                                    entidades.EliminarDiscoDuro(id);
+
+                                    MessageBox.Show("Se elimino el componente de la lista.", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                                     dataGridView1.DataSource = null;
                                     dataGridView1.DataSource = Administracion.discoDuros;
                                 }
@@ -561,6 +576,8 @@ namespace testFormParcial
                             {
                                 string mensaje = Administracion.EliminarTarjetaGrafica(id);
 
+                                
+
                                 dataGridView1.DataSource = null;
                                 dataGridView1.DataSource = Administracion.tarjetaGrafica;
                             }
@@ -589,6 +606,9 @@ namespace testFormParcial
 
             dataGridView1.DataSource = Administracion.listaCombinada;
 
+            GestorDeDatos entidades = new GestorDeDatos();
+
+            List<DiscoDuro> listDisco = entidades.ObtenerListaDiscoDuro();
 
             usuario = Usuario.DesealizarUsuariosJson();
 
