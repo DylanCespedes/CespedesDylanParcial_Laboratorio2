@@ -539,11 +539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\testConsola.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\testConsola\\testConsola.csproj",
       "projectName": "testConsola",
-      "projectPath": "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\testConsola.csproj",
+      "projectPath": "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\testConsola\\testConsola.csproj",
       "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\obj\\",
+      "outputPath": "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\testConsola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -560,8 +560,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\Entidades\\Entidades.csproj"
             }
           }
         }

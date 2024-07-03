@@ -8,6 +8,9 @@
     <Compile Update="AlmacenDeComponentes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EditarComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ElegirComponente.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YHWVhIg9TE4=",
+  "dgSpecHash": "p8/YlA41Rks=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dylan\\source\\repos\\Cespedes.Dylan.Parcial\\testConsola\\testConsola.csproj",
+  "projectFilePath": "C:\\Users\\Dylan\\Desktop\\CespedesDylanParcial_Laboratorio2\\testConsola\\testConsola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
