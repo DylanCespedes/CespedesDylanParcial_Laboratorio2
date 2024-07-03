@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": 1,
+    "velocidad": 30,
+    "colorMemoria": 0,
+    "marcaMemoria": 0,
+    "fechaCreacionMemoria": "2021-03-06T00:00:00",
+    "capacidad": 15,
+    "valor": 1,
+    "nombre": "Mike",
+    "fechaEntrega": "2024-05-22T00:00:00",
+    "tipoEntrega": 1,
+    "metodoPago": 2,
+    "precio": 38575.34,
+    "numeroDeTransferencia": 12375863
+  }
+]

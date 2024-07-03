@@ -34,7 +34,7 @@ namespace testFormParcial
 
         public MemoriaRAM MemoriaRAM
         {
-            get { return this.MemoriaRAM; }
+            get { return this.MemoriaRAM;  }
         }
 
         public TarjetaGrafica TarjetaGrafica
@@ -42,7 +42,7 @@ namespace testFormParcial
             get { return this.TarjetaGrafica; }
         }
 
-
+        
 
         public AgregarComponente()
         {
@@ -50,11 +50,11 @@ namespace testFormParcial
 
         }
 
-        public AgregarComponente(Ecomponentes componente) : this()
+        public AgregarComponente(Ecomponentes componente) :this()
         {
             this.componenteElegido = componente;
 
-            switch (this.componenteElegido)
+            switch(this.componenteElegido) 
             {
                 case Ecomponentes.DiscoDuro:
                     discoDuro = new List<DiscoDuro>();
@@ -71,7 +71,7 @@ namespace testFormParcial
                     txtFechaCreacion.Enabled = true;
 
                     ////////////////////////////
-
+                    
                     txtVelocidad.Enabled = false;
 
                     comboBox5.Enabled = false;
@@ -239,7 +239,7 @@ namespace testFormParcial
         {
 
         }
-
+        
 
         // //////////////////////////////////////////////////////////////// //
         //CARGAS DE ENUMERADOS
@@ -309,7 +309,7 @@ namespace testFormParcial
 
         private void AgregarComponente_Load_1(object sender, EventArgs e)
         {
-
+            
             //Carga de enumerados Disco Duro
             CargarModelosDiscoDuro();
             CargarColorDiscoDuro();
@@ -328,7 +328,7 @@ namespace testFormParcial
 
             CargarTipoEntrega();
             CargarMetodoPago();
-
+            
         }
     }
 }

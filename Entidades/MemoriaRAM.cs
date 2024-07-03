@@ -15,7 +15,7 @@ namespace Entidades
     /// <returns></returns>
     public class MemoriaRAM : Componente
     {
-        public int id { get; set; }
+        public int id {  get; set; }
 
         public int velocidad { get; set; }
 
@@ -25,9 +25,9 @@ namespace Entidades
 
         public DateTime fechaCreacionMemoria { get; set; }
 
-        public int capacidad { get; set; }
+        public int capacidad {  get; set; }
 
-        public Ecomponentes valor { get; set; }
+        public Ecomponentes valor {  get; set; }
 
         /// <summary>
         /// Su constructor con sus parametros y una sobrecarga

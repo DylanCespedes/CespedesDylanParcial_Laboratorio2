@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testFormParcial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d6444472ade77c7efa3db263143ce3ac94e686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("testFormParcial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testFormParcial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,13 +22,13 @@ namespace Entidades
 
         public EserieNvidia serieNvidia { get; set; }
 
-        public int modelo { get; set; }
+        public int modelo {  get; set; }
 
-        public int tamanioMemoria { get; set; }
+        public int tamanioMemoria {  get; set; }
 
         public DateTime fechaCreacionTarjeta { get; set; }
 
-        public Ecomponentes valor { get; set; }
+        public Ecomponentes valor {  get; set; }
 
         [JsonConstructor]
         public TarjetaGrafica(int id, EmarcaTarjeta marcaTarjeta, EserieNvidia serieNvidia, int modelo, int tamanioMemoria, DateTime fechaCreacionTarjeta, string nombre, DateTime fechaEntrega, EtipoEntrega tipoEntrega, Epago metodoPago, double precio, int numeroDeTransferencia) : base(nombre, fechaEntrega, tipoEntrega, metodoPago, precio, numeroDeTransferencia)

@@ -1,15 +1,15 @@
 ﻿public enum EmarcaDisco
 {
-    Kingston,
-    Seagate,
-    Sandisk
+    Kingston, //0 es Kingston
+    Seagate, //1 es Seagate
+    Sandisk //2 es Sandisk
 }
 
 public enum Ecolor
 {
-    Blanco,
-    Negro,
-    Plateado
+    Blanco, //0 es Blanco
+    Negro, // 1 es Negro
+    Plateado // 2 es Plateado
 }
 
 //Componentes

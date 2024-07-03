@@ -1,4 +1,5 @@
 ﻿using Entidades;
+using Entidades.BaseSQL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,11 +14,11 @@ namespace testFormParcial
 {
     public partial class modificarComponentes : Form
     {
-        private DiscoDuro discoduro = new DiscoDuro();
+        private DiscoDuro discoduro;
 
-        private MemoriaRAM memoriaram = new MemoriaRAM();
+        private MemoriaRAM memoriaram;
 
-        private TarjetaGrafica tarjetagrafica = new TarjetaGrafica();
+        private TarjetaGrafica tarjetagrafica;
 
 
         private DiscoDuro discoDuroModificar;
@@ -25,6 +26,8 @@ namespace testFormParcial
         private MemoriaRAM memoriaRamModificar;
 
         private TarjetaGrafica TarjetaGraficaModificar;
+
+        GestorDeDatos entidades = new GestorDeDatos();
 
         public DiscoDuro Discoduro
         {
@@ -167,9 +170,13 @@ namespace testFormParcial
 
                 string mensaje = Administracion.ModificarDiscoDuro(componenteDiscoDuro, id);
 
+                entidades.ModificarDiscoDuro(componenteDiscoDuro);
+
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.DialogResult = DialogResult.OK;
             }
-            else if (memoriaram is null)
+            else if (memoriaram is not null)
             {
                 int velocidad = Convert.ToInt32(txtVelocidad.Text);
                 EcolorMemoria colorMemoria = (EcolorMemoria)comboBox5.SelectedIndex;
@@ -181,7 +188,11 @@ namespace testFormParcial
 
                 string mensaje = Administracion.ModificarMemoriaRAM(componenteMemoriaRAM, id);
 
+                
+
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.DialogResult = DialogResult.OK;
             }
             else if(tarjetagrafica is not null)
             {
@@ -189,17 +200,16 @@ namespace testFormParcial
                 EserieNvidia serieNvidia = (EserieNvidia)comboBox7.SelectedIndex;
                 int modelo = Convert.ToInt32(txtModelo.Text);
                 int tamanioMemoria = Convert.ToInt32(txtTamanioTarjeta.Text);
-                DateTime fechaCreacionTarjeta = Convert.ToDateTime(txtFechaCreacionTarjeta);
+                DateTime fechaCreacionTarjeta = Convert.ToDateTime(txtFechaCreacionTarjeta.Text);
 
                 TarjetaGrafica componenteTarjetaGrafica = new TarjetaGrafica(id, marcaTarjeta, serieNvidia, modelo, tamanioMemoria, fechaCreacionTarjeta, nombre, fechaCreacionTarjeta, tipoEntrega, metodoPago, precio, numeroTransferencia);
 
                 string mensaje = Administracion.ModificarTarjetaGrafica(componenteTarjetaGrafica, id);
 
                 MessageBox.Show(mensaje, "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            
 
-            this.Close();
+                this.DialogResult = DialogResult.OK;
+            }
 
         }
 

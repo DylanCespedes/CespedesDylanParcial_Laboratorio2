@@ -8,9 +8,6 @@
     <Compile Update="AlmacenDeComponentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="EditarComponente.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="ElegirComponente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -20,18 +17,15 @@
     <Compile Update="modificarComponentes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PantallaDeCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="AgregarComponente.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Update="AlmacenDeComponentes.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Update="MenuInicio.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

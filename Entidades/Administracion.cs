@@ -9,14 +9,14 @@ namespace Entidades
 {
     public class Administracion
     {
-        public static List<Componente> listaCombinada { get; set; }
+        public static List<Componente> listaCombinada {  get; set; }
 
-
+        
         public static List<DiscoDuro> discoDuros { get; set; }
 
-        public static List<MemoriaRAM> memoriaRAM { get; set; }
+        public static List<MemoriaRAM> memoriaRAM {  get; set; }
 
-        public static List<TarjetaGrafica> tarjetaGrafica { get; set; }
+        public static List<TarjetaGrafica> tarjetaGrafica {  get; set; }
 
         public static void InicializarSistema()
         {
@@ -79,7 +79,7 @@ namespace Entidades
 
             return mensaje;
 
-
+            
         }
 
         public static string ModificarMemoriaRAM(MemoriaRAM memoriaRamEditar, int id)
@@ -90,7 +90,7 @@ namespace Entidades
             {
                 if (id == memoriaram.id)
                 {
-
+                    
                     memoriaram.marcaMemoria = memoriaRamEditar.marcaMemoria;
                     memoriaram.velocidad = memoriaRamEditar.velocidad;
                     memoriaram.colorMemoria = memoriaRamEditar.colorMemoria;
@@ -98,12 +98,12 @@ namespace Entidades
                     memoriaram.fechaCreacionMemoria = memoriaRamEditar.fechaCreacionMemoria;
                     memoriaram.capacidad = memoriaRamEditar.capacidad;
 
-                    memoriaram.nombre = memoriaram.nombre;
-                    memoriaram.fechaEntrega = memoriaram.fechaEntrega;
-                    memoriaram.tipoEntrega = memoriaram.tipoEntrega;
-                    memoriaram.metodoPago = memoriaram.metodoPago;
-                    memoriaram.precio = memoriaram.precio;
-                    memoriaram.numeroDeTransferencia = memoriaram.numeroDeTransferencia;
+                    memoriaram.nombre = memoriaRamEditar.nombre;
+                    memoriaram.fechaEntrega = memoriaRamEditar.fechaEntrega;
+                    memoriaram.tipoEntrega = memoriaRamEditar.tipoEntrega;
+                    memoriaram.metodoPago = memoriaRamEditar.metodoPago;
+                    memoriaram.precio = memoriaRamEditar.precio;
+                    memoriaram.numeroDeTransferencia = memoriaRamEditar.numeroDeTransferencia;
                     break;
                 }
             }
@@ -222,18 +222,18 @@ namespace Entidades
                 if (id == tarjetagrafica.id)
                 {
 
-                    tarjetagrafica.marcaTarjeta = tarjetagrafica.marcaTarjeta;
-                    tarjetagrafica.serieNvidia = tarjetagrafica.serieNvidia;
-                    tarjetagrafica.modelo = tarjetagrafica.modelo;
-                    tarjetagrafica.tamanioMemoria = tarjetagrafica.tamanioMemoria;
-                    tarjetagrafica.fechaCreacionTarjeta = tarjetagrafica.fechaCreacionTarjeta;
+                    tarjetagrafica.marcaTarjeta = tarjetaGraficaEditar.marcaTarjeta;
+                    tarjetagrafica.serieNvidia = tarjetaGraficaEditar.serieNvidia;
+                    tarjetagrafica.modelo = tarjetaGraficaEditar.modelo;
+                    tarjetagrafica.tamanioMemoria = tarjetaGraficaEditar.tamanioMemoria;
+                    tarjetagrafica.fechaCreacionTarjeta = tarjetaGraficaEditar.fechaCreacionTarjeta;
 
-                    tarjetagrafica.nombre = tarjetagrafica.nombre;
-                    tarjetagrafica.fechaEntrega = tarjetagrafica.fechaEntrega;
-                    tarjetagrafica.tipoEntrega = tarjetagrafica.tipoEntrega;
-                    tarjetagrafica.metodoPago = tarjetagrafica.metodoPago;
-                    tarjetagrafica.precio = tarjetagrafica.precio;
-                    tarjetagrafica.numeroDeTransferencia = tarjetagrafica.numeroDeTransferencia;
+                    tarjetagrafica.nombre = tarjetaGraficaEditar.nombre;
+                    tarjetagrafica.fechaEntrega = tarjetaGraficaEditar.fechaEntrega;
+                    tarjetagrafica.tipoEntrega = tarjetaGraficaEditar.tipoEntrega;
+                    tarjetagrafica.metodoPago = tarjetaGraficaEditar.metodoPago;
+                    tarjetagrafica.precio = tarjetaGraficaEditar.precio;
+                    tarjetagrafica.numeroDeTransferencia = tarjetaGraficaEditar.numeroDeTransferencia;
                     break;
                 }
             }

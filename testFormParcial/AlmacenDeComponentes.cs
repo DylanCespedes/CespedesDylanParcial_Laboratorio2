@@ -7,7 +7,9 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Entidades.BaseSQL;
 using System.Windows.Forms;
 
 namespace testFormParcial
@@ -22,6 +24,10 @@ namespace testFormParcial
         private List<TarjetaGrafica> lista3;
 
         private int listaActual = 1;
+
+        GestorDeDatos entidades = new GestorDeDatos();
+
+        private CancellationTokenSource cancellationTokenSource;
 
         public AlmacenDeComponentes()
         {
@@ -48,7 +54,11 @@ namespace testFormParcial
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = Administracion.discoDuros;
 
+
+
                 MessageBox.Show("El componente se ha agregado correctamente!!!", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            
             }
         }
 
@@ -82,7 +92,6 @@ namespace testFormParcial
                             string tamanio = dataGridView1.SelectedRows[0].Cells["tamanio"].Value.ToString();
                             string capacidad = dataGridView1.SelectedRows[0].Cells["capacidad"].Value.ToString();
                             DateTime fechaCreacion = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["fechaCreacion"].Value);
-
 
                             string nombre = dataGridView1.SelectedRows[0].Cells["nombre"].Value.ToString();
                             DateTime fechaEntrega = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["fechaEntrega"].Value);
@@ -134,10 +143,17 @@ namespace testFormParcial
                             discoDuroEncontrado = Administracion.BuscarDiscoDuro(id);
 
                             modificarComponentes modificarComponente = new modificarComponentes(discoDuroEncontrado);
-                            modificarComponente.ShowDialog();
+                            DialogResult dialogResult = modificarComponente.ShowDialog();
 
-                            dataGridView1.DataSource = null;
-                            dataGridView1.DataSource = Administracion.discoDuros;
+                            if(dialogResult == DialogResult.OK)
+                            {
+                                MessageBox.Show("El componente fue modificado con exito!!!", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                dataGridView1.DataSource = null;
+                                dataGridView1.DataSource = Administracion.discoDuros;
+
+                                this.DialogResult = DialogResult.OK;
+                            }
                         }
 
                         if (valor == Ecomponentes.MemoriaRAM)
@@ -201,9 +217,9 @@ namespace testFormParcial
                             }
 
                             memoriaRamEncontrada = Administracion.BuscarMemoriaRAM(id);
-
+                            
                             modificarComponentes modificarComponente = new modificarComponentes(memoriaRamEncontrada);
-                            modificarComponente.ShowDialog();
+                            modificarComponente.Show();
 
                             dataGridView1.DataSource = null;
                             dataGridView1.DataSource = Administracion.memoriaRAM;
@@ -272,7 +288,7 @@ namespace testFormParcial
                             tarjetaGraficaEncontrada = Administracion.BuscarTarjetaGrafica(id);
 
                             modificarComponentes modificarComponente = new modificarComponentes(tarjetaGraficaEncontrada);
-                            modificarComponente.ShowDialog();
+                            modificarComponente.Show();
 
                             dataGridView1.DataSource = null;
                             dataGridView1.DataSource = Administracion.tarjetaGrafica;
@@ -325,20 +341,20 @@ namespace testFormParcial
                                 int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                                 var columnaMarcaDisco = dataGridView1.SelectedRows[0].Cells["tipoMarca"].Value;
-                                if (columnaMarcaDisco != null)
+                                if(columnaMarcaDisco != null)
                                 {
                                     int intValue;
-                                    if (int.TryParse(columnaMarcaDisco.ToString(), out intValue))
+                                    if(int.TryParse(columnaMarcaDisco.ToString(), out intValue)) 
                                     {
                                         tipoMarca = (EmarcaDisco)intValue;
                                     }
                                 }
 
                                 var columnaColor = dataGridView1.SelectedRows[0].Cells["color"].Value;
-                                if (columnaColor != null)
+                                if(columnaColor != null ) 
                                 {
                                     int intValue;
-                                    if (int.TryParse(columnaColor.ToString(), out intValue))
+                                    if(int.TryParse(columnaColor.ToString(), out intValue))
                                     {
                                         color = (Ecolor)intValue;
                                     }
@@ -378,9 +394,13 @@ namespace testFormParcial
 
                                 DialogResult result = MessageBox.Show($"Estas seguro que quieres eliminar este pedido para {nombre} de la lista?", "Aviso!!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                                if (result == DialogResult.Yes)
+                                if (result == DialogResult.Yes) 
                                 {
                                     string mensaje = Administracion.EliminarDiscoDuro(id);
+
+                                    entidades.EliminarDiscoDuro(id);
+
+                                    MessageBox.Show("Se elimino el componente de la lista.", "Aviso!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                                     dataGridView1.DataSource = null;
                                     dataGridView1.DataSource = Administracion.discoDuros;
@@ -414,7 +434,7 @@ namespace testFormParcial
                             int numeroDeTransferencia = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["numeroDeTransferencia"].Value);
 
                             var columnaColorMemoria = dataGridView1.SelectedRows[0].Cells["colorMemoria"].Value;
-                            if (columnaColorMemoria != null)
+                            if(columnaColorMemoria != null)
                             {
                                 int intValue;
                                 if (int.TryParse(columnaColorMemoria.ToString(), out intValue))
@@ -424,10 +444,10 @@ namespace testFormParcial
                             }
 
                             var columnaMarcaMemoria = dataGridView1.SelectedRows[0].Cells["marcaMemoria"].Value;
-                            if (columnaMarcaMemoria != null)
+                            if (columnaMarcaMemoria != null) 
                             {
                                 int intValue;
-                                if (int.TryParse(columnaMarcaMemoria.ToString(), out intValue))
+                                if(int.TryParse(columnaMarcaMemoria.ToString(), out intValue))
                                 {
                                     marcaMemoria = (EmarcaMemoria)intValue;
                                 }
@@ -472,6 +492,8 @@ namespace testFormParcial
                             {
                                 string mensaje = Administracion.EliminarMemoriaRAM(id);
 
+                                entidades.EliminarMemoriaRAM(id);
+                                
                                 dataGridView1.DataSource = null;
                                 dataGridView1.DataSource = Administracion.memoriaRAM;
                             }
@@ -512,10 +534,10 @@ namespace testFormParcial
                             }
 
                             var columnaSerieNvidia = dataGridView1.SelectedRows[0].Cells["serieNvidia"].Value;
-                            if (columnaSerieNvidia != null)
+                            if (columnaSerieNvidia != null) 
                             {
                                 int intValue;
-                                if (int.TryParse(columnaSerieNvidia.ToString(), out intValue))
+                                if(int.TryParse(columnaSerieNvidia.ToString(), out intValue))
                                 {
                                     serieNvidia = (EserieNvidia)intValue;
                                 }
@@ -561,6 +583,8 @@ namespace testFormParcial
                             {
                                 string mensaje = Administracion.EliminarTarjetaGrafica(id);
 
+                                entidades.EliminarTarjetaGrafica(id);
+
                                 dataGridView1.DataSource = null;
                                 dataGridView1.DataSource = Administracion.tarjetaGrafica;
                             }
@@ -584,11 +608,35 @@ namespace testFormParcial
             this.Close();
         }
 
-        private void AlmacenDeComponentes_Load(object sender, EventArgs e)
+        private async void AlmacenDeComponentes_Load(object sender, EventArgs e)
         {
+            cancellationTokenSource = new CancellationTokenSource();
+
+            PantallaDeCarga pantallaDeCarga = new PantallaDeCarga();
+            pantallaDeCarga.Show();
+
+            try
+            {
+                await CargarDatosAsync(cancellationTokenSource.Token);
+            }
+            catch (OperationCanceledException)
+            {
+                MessageBox.Show("Carga cancelada!!!");
+                Application.ExitThread();
+            }
+            finally 
+            {
+                pantallaDeCarga.Close();
+            }
+
 
             dataGridView1.DataSource = Administracion.listaCombinada;
 
+            GestorDeDatos entidades = new GestorDeDatos();
+
+            List<DiscoDuro> listDisco = entidades.ObtenerListaDiscoDuro();
+            List<MemoriaRAM> listMemoriaRAM = entidades.ObtenerListaMemoriaRAM();
+            List<TarjetaGrafica> listTarjetaGrafica = entidades.ObtenerListaTarjetaGrafica();
 
             usuario = Usuario.DesealizarUsuariosJson();
 
@@ -614,6 +662,10 @@ namespace testFormParcial
                 e.Cancel = true;
 
             }
+
+            cancellationTokenSource.Cancel();
+
+
         }
 
         private void btnOrdenamiento_Click(object sender, EventArgs e)
@@ -639,13 +691,13 @@ namespace testFormParcial
             }
 
             listaActual++;
-            if (listaActual > 3)
+            if (listaActual > 3) 
             {
                 listaActual = 1;
             }
 
         }
-
+        
         private void MostrarListaDiscoDuro(List<DiscoDuro> lista)
         {
             dataGridView1.DataSource = null;
@@ -661,7 +713,18 @@ namespace testFormParcial
         private void MostrarListaTarjeta(List<TarjetaGrafica> lista)
         {
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = Administracion.tarjetaGrafica;
+            dataGridView1.DataSource= Administracion.tarjetaGrafica;
+        }
+
+        private async Task CargarDatosAsync(CancellationToken cancellationToken)
+        {
+            await Task.Run(() => 
+            {
+                for(int i = 0; i < 3; i++) 
+                {
+                    Thread.Sleep(2000);
+                }
+            }, cancellationToken);
         }
     }
 }
